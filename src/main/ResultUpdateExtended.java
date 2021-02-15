@@ -112,56 +112,67 @@ public class ResultUpdateExtended extends javax.swing.JFrame {
         jLabel14.setText("ICT(MID)");
 
         ictmid.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        ictmid.setText("0");
 
         jLabel15.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jLabel15.setText("ICT(CT)");
 
         ictct.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        ictct.setText("0");
 
         jLabel16.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jLabel16.setText("ICT(FINAL)");
 
         ictfinal.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        ictfinal.setText("0");
 
         jLabel17.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jLabel17.setText("MATH(MID)");
 
         mathmid.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        mathmid.setText("0");
 
         jLabel18.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jLabel18.setText("MATH(CT)");
 
         mathct.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        mathct.setText("0");
 
         jLabel19.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jLabel19.setText("MATH(FINAL)");
 
         mathfinal.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        mathfinal.setText("0");
 
         jLabel20.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jLabel20.setText("SCIENCE(MID)");
 
         sciencemid.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        sciencemid.setText("0");
 
         jLabel21.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jLabel21.setText("SCIENCE(CT)");
 
         sciencect.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        sciencect.setText("0");
 
         jLabel22.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jLabel22.setText("SCIENCE(FINAL)");
 
         sciencefinal.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        sciencefinal.setText("0");
 
         jLabel23.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jLabel23.setText("SOCIAL SCIENCE(MID)");
 
         socialsciencemid.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        socialsciencemid.setText("0");
 
         jLabel24.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jLabel24.setText("SOCIAL SCIENCE(CT)");
 
         socialsciencect.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        socialsciencect.setText("0");
         socialsciencect.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 socialsciencectActionPerformed(evt);
@@ -172,6 +183,7 @@ public class ResultUpdateExtended extends javax.swing.JFrame {
         jLabel25.setText("SOCIAL SCIENCE(FINAL)");
 
         socialsciencefinal.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        socialsciencefinal.setText("0");
         socialsciencefinal.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 socialsciencefinalActionPerformed(evt);
@@ -311,6 +323,7 @@ public class ResultUpdateExtended extends javax.swing.JFrame {
         jPanel1.add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(38, 514, -1, -1));
 
         banglamid.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        banglamid.setText("0");
         banglamid.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 banglamidActionPerformed(evt);
@@ -319,6 +332,7 @@ public class ResultUpdateExtended extends javax.swing.JFrame {
         jPanel1.add(banglamid, new org.netbeans.lib.awtextra.AbsoluteConstraints(249, 257, 101, 32));
 
         banglact.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        banglact.setText("0");
         banglact.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 banglactActionPerformed(evt);
@@ -327,15 +341,19 @@ public class ResultUpdateExtended extends javax.swing.JFrame {
         jPanel1.add(banglact, new org.netbeans.lib.awtextra.AbsoluteConstraints(249, 307, 101, 32));
 
         banglafinal.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        banglafinal.setText("0");
         jPanel1.add(banglafinal, new org.netbeans.lib.awtextra.AbsoluteConstraints(249, 357, 101, 32));
 
         englishmid.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        englishmid.setText("0");
         jPanel1.add(englishmid, new org.netbeans.lib.awtextra.AbsoluteConstraints(249, 407, 101, 32));
 
         englishct.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        englishct.setText("0");
         jPanel1.add(englishct, new org.netbeans.lib.awtextra.AbsoluteConstraints(249, 457, 101, 32));
 
         englishfinal.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        englishfinal.setText("0");
         jPanel1.add(englishfinal, new org.netbeans.lib.awtextra.AbsoluteConstraints(249, 507, 101, 32));
 
         jLabel11.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
@@ -343,6 +361,7 @@ public class ResultUpdateExtended extends javax.swing.JFrame {
         jPanel1.add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(38, 559, -1, -1));
 
         gkmid.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        gkmid.setText("0");
         jPanel1.add(gkmid, new org.netbeans.lib.awtextra.AbsoluteConstraints(249, 552, 101, 32));
 
         jLabel12.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
@@ -350,6 +369,7 @@ public class ResultUpdateExtended extends javax.swing.JFrame {
         jPanel1.add(jLabel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(38, 609, -1, -1));
 
         gkct.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        gkct.setText("0");
         jPanel1.add(gkct, new org.netbeans.lib.awtextra.AbsoluteConstraints(249, 602, 101, 32));
 
         jLabel13.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
@@ -357,6 +377,7 @@ public class ResultUpdateExtended extends javax.swing.JFrame {
         jPanel1.add(jLabel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(38, 659, -1, -1));
 
         gkfinal.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        gkfinal.setText("0");
         jPanel1.add(gkfinal, new org.netbeans.lib.awtextra.AbsoluteConstraints(249, 652, 101, 32));
 
         update.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
@@ -432,9 +453,9 @@ public class ResultUpdateExtended extends javax.swing.JFrame {
     }//GEN-LAST:event_jLabel60MouseClicked
 
     private void updateActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_updateActionPerformed
-        conn= SqlConnection.ConnectDB();
-        String waiver="0";
-        String add1 = "0";
+       conn= SqlConnection.ConnectDB();
+       String waiver="0";
+       String add1 = "0";
        String sql= "UPDATE student_result SET banglamid=?, banglact=?, banglafinal=?,englishmid=? ,englishct=?,englishfinal=?,gkmid=?, gkct=?, gkfinal=?, ictmid=?, ictct=?, ictfinal=?, mathmid=?, mathct=?, mathfinal=?, sciencemid=?, sciencect=?, sciencefinal=?,socialsciencemid=?, socialsciencect=?, socialsciencefinal=? WHERE studentid = ?";
        
        try
