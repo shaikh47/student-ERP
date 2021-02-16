@@ -78,5 +78,14 @@ Password change/update option UI
 ![Alt Text](https://github.com/shaikh47/student-ERP/blob/main/screenshot/passChange.PNG)
 
 
+Ledger view from students side
 
+
+![Alt Text](https://github.com/shaikh47/student-ERP/blob/main/screenshot/ledgerStudentView.PNG)
+
+
+Student registration page
+
+
+![Alt Text](https://github.com/shaikh47/student-ERP/blob/main/screenshot/studentAccReg.PNG)
 
